@@ -78,3 +78,39 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .feature {
+        flex: 100%; /* Để đảm bảo rằng nó sẽ chiếm toàn bộ chiều rộng */
+        margin-right: 0; /* Loại bỏ margin-right */
+        
+        .bottom {
+            padding: 10px; /* Điều chỉnh khoảng cách giữa các phần tử ở màn hình nhỏ hơn */
+            
+            .featureChart {
+                width: 60px; /* Điều chỉnh kích thước featureChart ở màn hình nhỏ hơn */
+                height: 60px;
+            }
+
+            .title {
+                font-size: 14px; /* Điều chỉnh font-size cho .title ở màn hình nhỏ hơn */
+            }
+
+            .amount {
+                font-size: 24px; /* Điều chỉnh font-size cho .amount ở màn hình nhỏ hơn */
+            }
+
+            .desc {
+                font-size: 10px; /* Điều chỉnh font-size cho .desc ở màn hình nhỏ hơn */
+            }
+
+            .summary {
+                .item {
+                    .itemResult {
+                        font-size: 12px; /* Điều chỉnh font-size cho .itemResult ở màn hình nhỏ hơn */
+                    }
+                }
+            }
+        }
+    }
+}

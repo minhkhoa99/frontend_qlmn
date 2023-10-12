@@ -69,3 +69,19 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        .wrapper {
+            padding: 10px; /* Điều chỉnh khoảng cách giữa các phần tử ở màn hình nhỏ hơn */
+        }
+
+        .items {
+            .item {
+                margin-right: 10px; /* Điều chỉnh khoảng cách giữa các item ở màn hình nhỏ hơn */
+            .avatar {
+                width: 20px; /* Điều chỉnh kích thước avatar ở màn hình nhỏ hơn */
+            }
+        }
+    }
+}}

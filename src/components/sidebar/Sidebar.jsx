@@ -27,7 +27,7 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
         <div className='top'>
-          <span className='logo'>Quản lý </span>
+          <span className='logo'>Quản lý Mầm non </span>
         </div>
         <hr />
         <div className='center'>
@@ -107,33 +107,22 @@ const Sidebar = () => {
               <AddchartIcon className='icon' />
               <span> Báo cáo thống kê</span>
             </li>
-            <p className="title">SERVICES</p>
-            <li>
-              <HealthAndSafetyIcon className='icon' />
-              <span>System Health</span>
-            </li>
-            <li>
-              <PsychologyIcon className='icon' />
-              <span>Logs</span>
-            </li>
+            <p className="title">DỊCH VỤ</p>
+          
             <li>
               <SettingsIcon className='icon' />
               <span>Settings</span>
             </li>
-            <p className="title">ACCOUNT</p>
+            <p className="title">TÀI KHOẢN</p>
             <li>
               <PersonIcon className='icon' />
-              <span>Profile</span>
+              <span>Thông tin</span>
             </li>
             <li>
               <ExitToAppIcon className='icon' />
-              <span>Logout</span>
+              <span>Đăng xuất</span>
             </li>
           </ul>
-        </div>
-        <div className='bottom'>
-          <div className='colorOptions'></div>
-          <div className='colorOptions'></div>
         </div>
     </div>
   )

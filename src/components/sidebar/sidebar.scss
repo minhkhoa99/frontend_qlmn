@@ -1,7 +1,7 @@
 .sidebar {
     flex: 1;
     border: 0.5px solid rgb(230, 227, 227);
-    min-height: 100vh;
+    min-height: 75vh;
     background-color: white;
 
     .top {
@@ -81,6 +81,38 @@
             }
             &:nth-child(2) {
                 background-color: #333;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        .top {
+            display: none; /* Ẩn phần .top ở màn hình nhỏ hơn 768px */
+        }
+        hr {
+            display: none; /* Ẩn phần hr ở màn hình nhỏ hơn 768px */
+        }
+        .center {
+            ul {
+                .title {
+                    font-size: 12px; /* Điều chỉnh font-size cho .title ở màn hình nhỏ hơn */
+                }
+                li {
+                    .icon {
+                        font-size: 16px; /* Điều chỉnh font-size cho .icon ở màn hình nhỏ hơn */
+                    }
+                    span {
+                        font-size: 12px; /* Điều chỉnh font-size cho span ở màn hình nhỏ hơn */
+                    }
+                }
+            }
+        }
+        .bottom {
+            .colorOptions {
+                width: 15px; /* Điều chỉnh kích thước colorOptions ở màn hình nhỏ hơn */
+                height: 15px;
             }
         }
     }

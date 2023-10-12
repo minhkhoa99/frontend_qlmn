@@ -15,3 +15,12 @@
         stroke: rgb(228, 225, 225);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .chart {
+        padding: 5px; /* Điều chỉnh khoảng cách giữa các phần tử ở màn hình nhỏ hơn */
+        .title {
+            margin-bottom: 10px; /* Điều chỉnh khoảng cách giữa .title ở màn hình nhỏ hơn */
+        }
+    }
+}

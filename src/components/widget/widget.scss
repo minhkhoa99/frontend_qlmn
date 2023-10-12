@@ -52,3 +52,34 @@
         align-self: flex-end;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .widget {
+        height: auto; /* Loại bỏ chiều cao cố định để nó có thể thay đổi theo nội dung */
+        flex-direction: column; /* Đặt lại flex-direction để nó xếp chồng các phần tử */
+        justify-content: center; /* Đặt lại justify-content để căn giữa các phần tử */
+
+        .left, .right {
+            text-align: center; /* Căn giữa nội dung trong .left và .right */
+            margin: 10px 0; /* Tạo khoảng cách giữa các phần tử con */
+        }
+
+        .title {
+            font-size: 16px; /* Điều chỉnh font-size cho .title ở màn hình nhỏ hơn */
+        }
+
+        .counter {
+            font-size: 24px; /* Điều chỉnh font-size cho .counter ở màn hình nhỏ hơn */
+        }
+
+        .link {
+            font-size: 12px; /* Điều chỉnh font-size cho .link ở màn hình nhỏ hơn */
+        }
+
+        .percentage {
+            .icon {
+                font-size: 14px; /* Điều chỉnh font-size cho .icon ở màn hình nhỏ hơn */
+            }
+        }
+    }
+}

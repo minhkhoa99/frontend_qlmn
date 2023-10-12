@@ -58,7 +58,8 @@ margin: 0;
 
 export const Input = styled.input`
 background-color: #eee;
-border: 0px solid #121112;
+border: none;
+outline: none;
 border-radius:10px;
 padding: 12px 15px;
 margin: 8px 0;

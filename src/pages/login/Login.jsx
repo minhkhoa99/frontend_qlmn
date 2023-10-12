@@ -13,11 +13,11 @@ const Login = () => {
 
               <Components.SignInContainer signinIn={signIn}>
                    <Components.Form>
-                       <Components.Title>Sign in</Components.Title>
-                       <Components.Input type='email' placeholder='Email' />
-                       <Components.Input type='password' placeholder='Password' />
+                       <Components.Title>ĐĂNG NHẬP</Components.Title>
+                       <Components.Input type='email' placeholder='Tên đăng nhập' />
+                       <Components.Input type='password' placeholder='Mật khẩu' />
                        <Components.Anchor>Quên mật khẩu vui lòng liên hệ admin</Components.Anchor>
-                       <Components.Button>Sigin In</Components.Button>
+                       <Components.Button>Đăng nhập</Components.Button>
                    </Components.Form>
               </Components.SignInContainer>
 
@@ -25,9 +25,9 @@ const Login = () => {
                   <Components.Overlay signinIn={signIn}>
 
                       <Components.RightOverlayPanel signinIn={signIn}>
-                        <Components.Title>Hello, Friend!</Components.Title>
+                        <Components.Title>Chào mừng</Components.Title>
                         <Components.Paragraph>
-                            Enter Your personal details and start journey with us
+                            Đăng nhập để sử dụng dịch vụ
                         </Components.Paragraph>
     
                       </Components.RightOverlayPanel>
