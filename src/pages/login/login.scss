@@ -4,13 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #f6f5f7;
+.backgroundImage{
+  background-image:url('../../../public/assets/images/63771992-digital-composite-of-school-materials-and-apple-with-library-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
-  margin: -20px 0 50px;
+}
+.logoLogin {
+  width: 22%; /* Điều chỉnh kích thước theo ý muốn */
+  max-width: 150px;
+  height: auto; /* Điều chỉnh kích thước theo ý muốn */
+  border-radius: 50%; /* Làm cho ảnh tròn */
+  border: 2px solid #0077b6; /* Thêm viền */
+  margin: 15vh 0 5vh;
 }
